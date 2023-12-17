@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004F83A22B01C87F0009520C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83A12B01C87F0009520C /* AppDelegate.swift */; };
+		004F83A42B01C87F0009520C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83A32B01C87F0009520C /* SceneDelegate.swift */; };
+		004F83A92B01C87F0009520C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F83A72B01C87F0009520C /* Main.storyboard */; };
+		004F83AC2B01C87F0009520C /* Green_Thumb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004F83AA2B01C87F0009520C /* Green_Thumb.xcdatamodeld */; };
+		004F83AE2B01C8800009520C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004F83AD2B01C8800009520C /* Assets.xcassets */; };
+		004F83B12B01C8800009520C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F83AF2B01C8800009520C /* LaunchScreen.storyboard */; };
+		004F83BC2B01D1CC0009520C /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83BA2B01D1CC0009520C /* SignupVC.swift */; };
+		004F83BD2B01D1CC0009520C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83BB2B01D1CC0009520C /* LoginViewController.swift */; };
+		004F83C02B01D2280009520C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83BF2B01D2280009520C /* DesignableView.swift */; };
+		004F83C42B01D2940009520C /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83C32B01D2940009520C /* Views.swift */; };
+		004F83C72B01D42D0009520C /* DatabseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83C62B01D42D0009520C /* DatabseHelper.swift */; };
+		004F83C92B01D9D90009520C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83C82B01D9D90009520C /* ProfileVC.swift */; };
+		004F83CB2B01DD9C0009520C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83CA2B01DD9C0009520C /* HomeVC.swift */; };
+		004F83E12B01F40F0009520C /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83DF2B01F40F0009520C /* VNClassificationObservation+confidenceString.swift */; };
+		004F83E22B01F40F0009520C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83E02B01F40F0009520C /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		004F83E42B01F5760009520C /* PlantDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F83E32B01F5760009520C /* PlantDetailsVC.swift */; };
+		00571EA62B1D1160005288EE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00571EA52B1D1160005288EE /* Model.swift */; };
+		00571EAA2B1D19CD005288EE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 00571EA92B1D19CD005288EE /* Lottie */; };
+		00571EAD2B1D1DC6005288EE /* plant.json in Resources */ = {isa = PBXBuildFile; fileRef = 00571EAC2B1D1DC6005288EE /* plant.json */; };
+		00571EAF2B1D28B9005288EE /* UpdateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00571EAE2B1D28B9005288EE /* UpdateProfileVC.swift */; };
+		00935A192B10C66500B058F3 /* AddReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A182B10C66500B058F3 /* AddReminderVC.swift */; };
+		00935A1B2B10C66B00B058F3 /* ReminderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A1A2B10C66B00B058F3 /* ReminderListVC.swift */; };
+		00935A272B10C70D00B058F3 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00935A1E2B10C70D00B058F3 /* DropDownCell.xib */; };
+		00935A282B10C70D00B058F3 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A202B10C70D00B058F3 /* DPDKeyboardListener.swift */; };
+		00935A292B10C70D00B058F3 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A212B10C70D00B058F3 /* DPDConstants.swift */; };
+		00935A2A2B10C70D00B058F3 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A222B10C70D00B058F3 /* DPDUIView+Extension.swift */; };
+		00935A2B2B10C70D00B058F3 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A242B10C70D00B058F3 /* DropDown.swift */; };
+		00935A2C2B10C70D00B058F3 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A252B10C70D00B058F3 /* DropDownCell.swift */; };
+		00935A2D2B10C70D00B058F3 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00935A262B10C70D00B058F3 /* DropDown+Appearance.swift */; };
+		00CABEB12B02201D004EA5E6 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00CABEB02B02201D004EA5E6 /* IQKeyboardManagerSwift */; };
+		00CABEB32B023A89004EA5E6 /* Plant.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00CABEB22B023A89004EA5E6 /* Plant.mlmodel */; };
+		00CABEB52B02415C004EA5E6 /* SavedPlantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CABEB42B02415C004EA5E6 /* SavedPlantsVC.swift */; };
+		00CABEBA2B02424A004EA5E6 /* SavedPlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CABEB82B02424A004EA5E6 /* SavedPlantList.swift */; };
+		00CABEBB2B02424A004EA5E6 /* SavedPlantList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CABEB92B02424A004EA5E6 /* SavedPlantList.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004F839E2B01C87F0009520C /* Green Thumb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Thumb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004F83A12B01C87F0009520C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		004F83A32B01C87F0009520C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		004F83A82B01C87F0009520C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		004F83AB2B01C87F0009520C /* Green_Thumb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Green_Thumb.xcdatamodel; sourceTree = "<group>"; };
+		004F83AD2B01C8800009520C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		004F83B02B01C8800009520C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		004F83B22B01C8800009520C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004F83BA2B01D1CC0009520C /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		004F83BB2B01D1CC0009520C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		004F83BF2B01D2280009520C /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		004F83C32B01D2940009520C /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		004F83C62B01D42D0009520C /* DatabseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabseHelper.swift; sourceTree = "<group>"; };
+		004F83C82B01D9D90009520C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		004F83CA2B01DD9C0009520C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		004F83DB2B01E8CB0009520C /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
+		004F83DF2B01F40F0009520C /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		004F83E02B01F40F0009520C /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		004F83E32B01F5760009520C /* PlantDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailsVC.swift; sourceTree = "<group>"; };
+		00571EA52B1D1160005288EE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		00571EAC2B1D1DC6005288EE /* plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plant.json; sourceTree = "<group>"; };
+		00571EAE2B1D28B9005288EE /* UpdateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileVC.swift; sourceTree = "<group>"; };
+		00935A182B10C66500B058F3 /* AddReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderVC.swift; sourceTree = "<group>"; };
+		00935A1A2B10C66B00B058F3 /* ReminderListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListVC.swift; sourceTree = "<group>"; };
+		00935A1E2B10C70D00B058F3 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		00935A202B10C70D00B058F3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		00935A212B10C70D00B058F3 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		00935A222B10C70D00B058F3 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		00935A242B10C70D00B058F3 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		00935A252B10C70D00B058F3 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		00935A262B10C70D00B058F3 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		00CABEB22B023A89004EA5E6 /* Plant.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Plant.mlmodel; sourceTree = "<group>"; };
+		00CABEB42B02415C004EA5E6 /* SavedPlantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlantsVC.swift; sourceTree = "<group>"; };
+		00CABEB82B02424A004EA5E6 /* SavedPlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlantList.swift; sourceTree = "<group>"; };
+		00CABEB92B02424A004EA5E6 /* SavedPlantList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedPlantList.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004F839B2B01C87F0009520C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CABEB12B02201D004EA5E6 /* IQKeyboardManagerSwift in Frameworks */,
+				00571EAA2B1D19CD005288EE /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004F83952B01C87F0009520C = {
+			isa = PBXGroup;
+			children = (
+				004F83A02B01C87F0009520C /* Green Thumb */,
+				004F839F2B01C87F0009520C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		004F839F2B01C87F0009520C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004F839E2B01C87F0009520C /* Green Thumb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004F83A02B01C87F0009520C /* Green Thumb */ = {
+			isa = PBXGroup;
+			children = (
+				00571EAB2B1D1DC0005288EE /* animation */,
+				00571EA72B1D1179005288EE /* Api */,
+				00CABEB22B023A89004EA5E6 /* Plant.mlmodel */,
+				004F83DB2B01E8CB0009520C /* labels.txt */,
+				004F83C22B01D28A0009520C /* Extensions */,
+				004F83BE2B01D21D0009520C /* CustomViews */,
+				004F83C52B01D40D0009520C /* Helpers */,
+				004F83B82B01D1B60009520C /* Vcs */,
+				004F83A12B01C87F0009520C /* AppDelegate.swift */,
+				004F83A32B01C87F0009520C /* SceneDelegate.swift */,
+				004F83A72B01C87F0009520C /* Main.storyboard */,
+				004F83AD2B01C8800009520C /* Assets.xcassets */,
+				004F83AF2B01C8800009520C /* LaunchScreen.storyboard */,
+				004F83B22B01C8800009520C /* Info.plist */,
+				004F83AA2B01C87F0009520C /* Green_Thumb.xcdatamodeld */,
+			);
+			path = "Green Thumb";
+			sourceTree = "<group>";
+		};
+		004F83B82B01D1B60009520C /* Vcs */ = {
+			isa = PBXGroup;
+			children = (
+				00935A172B10C65C00B058F3 /* Reminder */,
+				00CABEB62B024230004EA5E6 /* SavedPlants */,
+				004F83B92B01D1C10009520C /* LoginSignup */,
+				004F83C82B01D9D90009520C /* ProfileVC.swift */,
+				004F83CA2B01DD9C0009520C /* HomeVC.swift */,
+				004F83E32B01F5760009520C /* PlantDetailsVC.swift */,
+				00571EAE2B1D28B9005288EE /* UpdateProfileVC.swift */,
+			);
+			path = Vcs;
+			sourceTree = "<group>";
+		};
+		004F83B92B01D1C10009520C /* LoginSignup */ = {
+			isa = PBXGroup;
+			children = (
+				004F83BB2B01D1CC0009520C /* LoginViewController.swift */,
+				004F83BA2B01D1CC0009520C /* SignupVC.swift */,
+			);
+			path = LoginSignup;
+			sourceTree = "<group>";
+		};
+		004F83BE2B01D21D0009520C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				004F83BF2B01D2280009520C /* DesignableView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		004F83C22B01D28A0009520C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				004F83E02B01F40F0009520C /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				004F83DF2B01F40F0009520C /* VNClassificationObservation+confidenceString.swift */,
+				004F83C32B01D2940009520C /* Views.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		004F83C52B01D40D0009520C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00935A1C2B10C70D00B058F3 /* DropDown */,
+				004F83C62B01D42D0009520C /* DatabseHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		00571EA72B1D1179005288EE /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				00571EA52B1D1160005288EE /* Model.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		00571EAB2B1D1DC0005288EE /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				00571EAC2B1D1DC6005288EE /* plant.json */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		00935A172B10C65C00B058F3 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				00935A182B10C66500B058F3 /* AddReminderVC.swift */,
+				00935A1A2B10C66B00B058F3 /* ReminderListVC.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		00935A1C2B10C70D00B058F3 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				00935A1D2B10C70D00B058F3 /* resources */,
+				00935A1F2B10C70D00B058F3 /* helpers */,
+				00935A232B10C70D00B058F3 /* src */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		00935A1D2B10C70D00B058F3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				00935A1E2B10C70D00B058F3 /* DropDownCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		00935A1F2B10C70D00B058F3 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00935A202B10C70D00B058F3 /* DPDKeyboardListener.swift */,
+				00935A212B10C70D00B058F3 /* DPDConstants.swift */,
+				00935A222B10C70D00B058F3 /* DPDUIView+Extension.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		00935A232B10C70D00B058F3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				00935A242B10C70D00B058F3 /* DropDown.swift */,
+				00935A252B10C70D00B058F3 /* DropDownCell.swift */,
+				00935A262B10C70D00B058F3 /* DropDown+Appearance.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		00CABEB62B024230004EA5E6 /* SavedPlants */ = {
+			isa = PBXGroup;
+			children = (
+				00CABEB72B02423A004EA5E6 /* Cells */,
+				00CABEB42B02415C004EA5E6 /* SavedPlantsVC.swift */,
+			);
+			path = SavedPlants;
+			sourceTree = "<group>";
+		};
+		00CABEB72B02423A004EA5E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00CABEB82B02424A004EA5E6 /* SavedPlantList.swift */,
+				00CABEB92B02424A004EA5E6 /* SavedPlantList.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004F839D2B01C87F0009520C /* Green Thumb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004F83B52B01C8800009520C /* Build configuration list for PBXNativeTarget "Green Thumb" */;
+			buildPhases = (
+				004F839A2B01C87F0009520C /* Sources */,
+				004F839B2B01C87F0009520C /* Frameworks */,
+				004F839C2B01C87F0009520C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Green Thumb";
+			packageProductDependencies = (
+				00CABEB02B02201D004EA5E6 /* IQKeyboardManagerSwift */,
+				00571EA92B1D19CD005288EE /* Lottie */,
+			);
+			productName = "Green Thumb";
+			productReference = 004F839E2B01C87F0009520C /* Green Thumb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		004F83962B01C87F0009520C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					004F839D2B01C87F0009520C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 004F83992B01C87F0009520C /* Build configuration list for PBXProject "Green Thumb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004F83952B01C87F0009520C;
+			packageReferences = (
+				00CABEAF2B02201D004EA5E6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				00571EA82B1D19CD005288EE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 004F839F2B01C87F0009520C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004F839D2B01C87F0009520C /* Green Thumb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004F839C2B01C87F0009520C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004F83B12B01C8800009520C /* LaunchScreen.storyboard in Resources */,
+				00571EAD2B1D1DC6005288EE /* plant.json in Resources */,
+				00CABEBB2B02424A004EA5E6 /* SavedPlantList.xib in Resources */,
+				004F83AE2B01C8800009520C /* Assets.xcassets in Resources */,
+				00935A272B10C70D00B058F3 /* DropDownCell.xib in Resources */,
+				004F83A92B01C87F0009520C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004F839A2B01C87F0009520C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004F83AC2B01C87F0009520C /* Green_Thumb.xcdatamodeld in Sources */,
+				004F83E42B01F5760009520C /* PlantDetailsVC.swift in Sources */,
+				004F83CB2B01DD9C0009520C /* HomeVC.swift in Sources */,
+				004F83E22B01F40F0009520C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				004F83BC2B01D1CC0009520C /* SignupVC.swift in Sources */,
+				004F83E12B01F40F0009520C /* VNClassificationObservation+confidenceString.swift in Sources */,
+				004F83C02B01D2280009520C /* DesignableView.swift in Sources */,
+				00CABEB52B02415C004EA5E6 /* SavedPlantsVC.swift in Sources */,
+				004F83BD2B01D1CC0009520C /* LoginViewController.swift in Sources */,
+				00571EA62B1D1160005288EE /* Model.swift in Sources */,
+				00935A1B2B10C66B00B058F3 /* ReminderListVC.swift in Sources */,
+				00CABEB32B023A89004EA5E6 /* Plant.mlmodel in Sources */,
+				004F83C72B01D42D0009520C /* DatabseHelper.swift in Sources */,
+				004F83C92B01D9D90009520C /* ProfileVC.swift in Sources */,
+				004F83C42B01D2940009520C /* Views.swift in Sources */,
+				00CABEBA2B02424A004EA5E6 /* SavedPlantList.swift in Sources */,
+				004F83A22B01C87F0009520C /* AppDelegate.swift in Sources */,
+				00571EAF2B1D28B9005288EE /* UpdateProfileVC.swift in Sources */,
+				00935A2C2B10C70D00B058F3 /* DropDownCell.swift in Sources */,
+				00935A192B10C66500B058F3 /* AddReminderVC.swift in Sources */,
+				00935A282B10C70D00B058F3 /* DPDKeyboardListener.swift in Sources */,
+				00935A2A2B10C70D00B058F3 /* DPDUIView+Extension.swift in Sources */,
+				00935A2D2B10C70D00B058F3 /* DropDown+Appearance.swift in Sources */,
+				00935A292B10C70D00B058F3 /* DPDConstants.swift in Sources */,
+				00935A2B2B10C70D00B058F3 /* DropDown.swift in Sources */,
+				004F83A42B01C87F0009520C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		004F83A72B01C87F0009520C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004F83A82B01C87F0009520C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		004F83AF2B01C8800009520C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004F83B02B01C8800009520C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004F83B32B01C8800009520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		004F83B42B01C8800009520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004F83B62B01C8800009520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Green Thumb/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera to take plant photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.risesoft-green-thumb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		004F83B72B01C8800009520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Green Thumb/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera to take plant photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.risesoft-green-thumb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004F83992B01C87F0009520C /* Build configuration list for PBXProject "Green Thumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004F83B32B01C8800009520C /* Debug */,
+				004F83B42B01C8800009520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004F83B52B01C8800009520C /* Build configuration list for PBXNativeTarget "Green Thumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004F83B62B01C8800009520C /* Debug */,
+				004F83B72B01C8800009520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00571EA82B1D19CD005288EE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		00CABEAF2B02201D004EA5E6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00571EA92B1D19CD005288EE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00571EA82B1D19CD005288EE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		00CABEB02B02201D004EA5E6 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00CABEAF2B02201D004EA5E6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		004F83AA2B01C87F0009520C /* Green_Thumb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				004F83AB2B01C87F0009520C /* Green_Thumb.xcdatamodel */,
+			);
+			currentVersion = 004F83AB2B01C87F0009520C /* Green_Thumb.xcdatamodel */;
+			path = Green_Thumb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 004F83962B01C87F0009520C /* Project object */;
+}
