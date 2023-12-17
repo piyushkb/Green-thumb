@@ -1,5 +1,5 @@
  
-"Green Thumb is an image classification-based AI project that can identify plants."
+"Green Thumb is an image classification-based Core ML project that can identify plants."
 
 Features 
 
